@@ -1,6 +1,6 @@
 //Maya ASCII 2023 scene
 //Name: CaveWalls.ma
-//Last modified: Thu, Oct 23, 2025 11:38:02 AM
+//Last modified: Mon, Oct 27, 2025 10:37:24 AM
 //Codeset: 1252
 requires maya "2023";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiStandardSurface"
@@ -11,22 +11,22 @@ fileInfo "product" "Maya 2023";
 fileInfo "version" "2023";
 fileInfo "cutIdentifier" "202405151550-05a853e76d";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "C1103FEF-4CB9-EB9A-A1DD-EAA02F83AC00";
+fileInfo "UUID" "E3C5D5C7-42DF-049D-0B3D-38B2067BA282";
 createNode transform -s -n "persp";
 	rename -uid "E27BC156-4915-FCDD-C8E6-B982662FF12E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -1.9820754010113324 1.349138389849337 9.4438052781083943 ;
-	setAttr ".r" -type "double3" -10.800000000001148 -5.5999999999999961 9.9868968436308509e-17 ;
+	setAttr ".t" -type "double3" -2.3510591131235046 -0.81164016453930676 15.496738708771034 ;
+	setAttr ".r" -type "double3" 7.199999999999994 7.9981054210832925e-16 -4.9269035518887058e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "10EACE2B-45B0-0CE8-5537-AF8125225963";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
 	setAttr ".ncp" 0.001;
-	setAttr ".coi" 4.9833849578494798;
+	setAttr ".coi" 14.516155199610802;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -3.2429920765943727 0.34999999403953552 -0.1705009937286377 ;
+	setAttr ".tp" -type "double3" 0.59680935740470886 -0.24264009296894073 -0.0072731971740722656 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "F0F00426-49B6-805A-B21B-5F873E37F64A";
